@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}">
 
+    <link rel="stylesheet" href="https://uicdn.toast.com/tui-grid/latest/tui-grid.css"/>
+    <script src="https://uicdn.toast.com/tui-grid/latest/tui-grid.js"></script>
+
     {% block extra-style %}{% endblock %}
 
 </head>
@@ -37,7 +40,7 @@
                 <a class="nav-link text-white" href="{% url 'todo:index' %}">Todo</a></li>
             <li class="nav-item mx-1 btn btn-primary">
                 <a class="nav-link text-white" href="{% url 'todo:toast' %}">Blog(tobe)</a></li>
-                   <li class="nav-item mx-1 btn btn-primary">
+            <li class="nav-item mx-1 btn btn-primary">
 
             <li class="nav-item dropdown mx-1 btn btn-primary">
                 <a class="nav-link dropdown-toggle text-white" href="#" data-toggle="dropdown">Util</a>
